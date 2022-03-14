@@ -1,0 +1,2 @@
+TRIGGER PROCEDURE FOR CREATE OF Customers.
+ASSIGN Customers.CustomerID = NEXT-VALUE(CustomerIDseq).

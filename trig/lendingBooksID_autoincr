@@ -1,0 +1,2 @@
+TRIGGER PROCEDURE FOR CREATE OF LendingBooks.
+ASSIGN LendingBooks.LendingBooks_ID = NEXT-VALUE(LendingBooksIDseq).

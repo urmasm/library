@@ -1,0 +1,2 @@
+TRIGGER PROCEDURE FOR CREATE OF Lendings.
+ASSIGN Lendings.Loan_ID = NEXT-VALUE(LoanIDseq).
